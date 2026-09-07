@@ -9,25 +9,35 @@
     height: 100vh;
     overflow: hidden;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .bloque1 {
     grid-column: span 2;
-    background-color: #d1e7dd;
+    background-color: #c9efde;
 }
 
 .bloque2 {
-    grid-column: span 2;
-    background-color: #fff3cd;
+    background-color: #c9efde;
 }
 
-.bloque3,
-.bloque4,
-.bloque5,
+.bloque3 {
+    grid-column: span 2;
+    background-color: #f0f1a7;
+}
+
+.bloque4 {
+    background-color: #f0f1a7;
+}
+
+.bloque5 {
+    grid-column: span 2;
+    background-color: #f7c5c9;
+}
+
 .bloque6 {
-    background-color: #f8d7da;
+    background-color: lightblue;
 }
 
 .bloque1,
@@ -52,36 +62,31 @@
         height: 100vh;
         overflow: hidden;
         display: grid;
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .bloque2,
+    .bloque4,
+    .bloque5 {
+        display: none;
     }
 
     .bloque1 {
-        grid-column: span 2;
         background-color: #c5eba2;
-        margin-bottom: 0.5rem;
     }
 
-    .bloque2 {
-        grid-column: span 2;
-        background-color: #f9ff9e;
+    .bloque3 {
+        background-color: #e9efa5;
     }
 
-    .bloque3,
-    .bloque4 {
-        background-color: #f7c5c9;
-    }
 
-    .bloque5,
     .bloque6 {
-        background-color: #719eff;
+        background-color: #78acff;
     }
 
     .bloque1,
-    .bloque2,
     .bloque3,
-    .bloque4,
-    .bloque5,
     .bloque6 {
         display: flex;
         justify-content: center;
