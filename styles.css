@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3vh 0;
+}
+
+.titulo-sitio {
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.indice-general {
+  display: flex;
+  gap: 4%;
+  flex-wrap: wrap;
+}
+
+.bloque-entrenamiento {
+  background-color: #ececec;
+  border-radius: 1em;
+  padding: 2vh 2vw;
+  flex: 1;
+  min-width: 40%;
+}
+
+.bloque-entrenamiento h2 {
+  margin-bottom: 1.5vh;
+}
+
+.bloque-entrenamiento ul {
+  list-style-position: inside;
+}
+
+.bloque-entrenamiento li {
+  margin-bottom: 0.8vh;
+}
+
+.bloque-entrenamiento a {
+  color: #1a4d8f;
+  text-decoration: none;
+}
+
+.bloque-entrenamiento a:hover {
+  text-decoration: underline;
+}
